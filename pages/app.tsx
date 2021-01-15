@@ -3,11 +3,12 @@ import { NextPage } from 'next';
 
 import Nav from '../components/nav';
 
-const IndexPage: NextPage = () => {
+const AppPage: NextPage = () => {
   const [session, loading] = useSession();
   return (
     <div>
       <Nav />
+      <h1>BEM-VINDO ao INICIO</h1>
       {!session && <div className="text-3xl">
         Not signed in <br />
         <button onClick={(): Promise<void> => signIn('auth0')}>Sign in</button>
@@ -27,4 +28,4 @@ const IndexPage: NextPage = () => {
   )
 };
 
-export default IndexPage;
+export default AppPage;

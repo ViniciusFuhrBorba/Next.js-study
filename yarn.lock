@@ -218,7 +218,7 @@
     "@types/bson" "*"
     "@types/node" "*"
 
-"@types/next-auth@^3.1.5":
+"@types/next-auth@^3.1.21":
   version "3.1.21"
   resolved "https://registry.yarnpkg.com/@types/next-auth/-/next-auth-3.1.21.tgz#57fb08feb3dc888c7e942a3efaa927179f34adf0"
   integrity sha512-ltOAdUkhQJUZVJMFiZJuRQdxxUKMK1ZJ4uPwY1f6QLBCcoBgiAv+79t2NBWHGN3CXBp9afTnz4owv4gCPSlFCA==
