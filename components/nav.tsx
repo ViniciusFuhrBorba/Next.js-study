@@ -1,14 +1,10 @@
-import { NextPage } from 'next';
-
-
 import Link from 'next/link';
-
-
+import { NextPage } from 'next';
 
 const links = [
   { href: 'https://github.com/vercel/next.js', label: 'GitHub' },
   { href: 'https://nextjs.org/docs', label: 'Docs' },
-]
+];
 
 const Nav: NextPage = () => {
   return (
@@ -32,7 +28,7 @@ const Nav: NextPage = () => {
         </ul>
       </ul>
     </nav>
-  )
-}
+  );
+};
 
 export default Nav;
